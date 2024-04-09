@@ -1,6 +1,6 @@
 
 # Hands-on Meraki Action Batches
-## Tutorial Guide 👉🏽 <insert link here once published>
+## Tutorial Guide 👉🏽 http://cs.co/sp24meraki
 ### What You’ll Learn
 - Anatomy of action batches
 - Look at Multi-site organization deployment and understand the APIs needed to deploy it
