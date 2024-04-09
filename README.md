@@ -11,4 +11,4 @@
 - Install [VS Code](https://code.visualstudio.com/download) 
 - Install [Python](https://www.python.org/downloads/)
 - Create a Meraki account [here](https://account.meraki.com/login) 
-- Clone the [Meraki Action Batches Repository]()
+- Clone the [Meraki Action Batches Repository](https://github.com/CiscoLearning/meraki-actions-batches-sp24)
