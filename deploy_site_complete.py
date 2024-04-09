@@ -5,7 +5,7 @@ import json
 
 # API_KEY = ''
 
-API_KEY = 'fb90cd91db2a93d361af743921d896d015a3477a'
+API_KEY = 'ENTER YOUR API KEY HERE'
 
 # Instantiate a Meraki dashboard API session
 dashboard = meraki.DashboardAPI(API_KEY)
