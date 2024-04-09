@@ -1,0 +1,146 @@
+{
+  "confirmed": true,
+  "synchronous": false,
+  "actions": [
+    {
+      "resource": "/organizations/1556065/networks",
+      "operation": "create",
+      "body": {
+        "name": "San Diego - CA",
+        "productTypes": [
+          "appliance",
+          "switch",
+          "wireless",
+          "camera"
+        ],
+        "tags": [
+          "spam",
+          "foo",
+          "baz"
+        ],
+        "timeZone": "America/Los_Angeles",
+        "notes": "Address-111 W Harbor Dr, San Diego, CA 92101"
+      }
+    },
+    {
+      "resource": "/organizations/1556065/networks",
+      "operation": "create",
+      "body": {
+        "name": "Boston - MA",
+        "productTypes": [
+          "appliance",
+          "switch",
+          "wireless",
+          "camera"
+        ],
+        "tags": [
+          "ham",
+          "foo",
+          "bar"
+        ],
+        "timeZone": "America/New_York",
+        "notes": "Address-125 High St, Boston, MA 02110"
+      }
+    },
+    {
+      "resource": "/organizations/1556065/networks",
+      "operation": "create",
+      "body": {
+        "name": "Fairbanks - AK",
+        "productTypes": [
+          "appliance",
+          "switch",
+          "wireless",
+          "camera"
+        ],
+        "tags": [
+          "baz",
+          "eggs",
+          "foo"
+        ],
+        "timeZone": "America/Anchorage",
+        "notes": "Address-433 Harold Bentley Ave, Fairbanks, AK 99701"
+      }
+    },
+    {
+      "resource": "/organizations/1556065/networks",
+      "operation": "create",
+      "body": {
+        "name": "Akureyri - IS",
+        "productTypes": [
+          "appliance",
+          "switch",
+          "wireless",
+          "camera"
+        ],
+        "tags": [
+          "baz",
+          "ham",
+          "eggs"
+        ],
+        "timeZone": "Iceland",
+        "notes": "Address-vio Eyrarlandsveg 600, Akureyri, Iceland"
+      }
+    },
+    {
+      "resource": "/organizations/1556065/networks",
+      "operation": "create",
+      "body": {
+        "name": "Nanjing - CN",
+        "productTypes": [
+          "appliance",
+          "switch",
+          "wireless",
+          "camera"
+        ],
+        "tags": [
+          "bar",
+          "foo",
+          "spam"
+        ],
+        "timeZone": "Asia/Hong_Kong",
+        "notes": "Address-122 Ninghai Rd, Gulou Qu, Nanjing Shi, Jiangsu Sheng, China, 210017"
+      }
+    },
+    {
+      "resource": "/organizations/1556065/networks",
+      "operation": "create",
+      "body": {
+        "name": "Bora Bora - PF",
+        "productTypes": [
+          "appliance",
+          "switch",
+          "wireless",
+          "camera"
+        ],
+        "tags": [
+          "ham",
+          "bar",
+          "spam"
+        ],
+        "timeZone": "Pacific/Tahiti",
+        "notes": "Address-Motu Piti Aau Bora Bora French Polynesia, 98730, French Polynesia"
+      }
+    },
+    {
+      "resource": "/organizations/1556065/networks",
+      "operation": "create",
+      "body": {
+        "name": "Liverpool - GB",
+        "productTypes": [
+          "appliance",
+          "switch",
+          "wireless",
+          "camera"
+        ],
+        "tags": [
+          "bar",
+          "ham",
+          "eggs"
+        ],
+        "timeZone": "Europe/London",
+        "notes": "Address-Anfield, Liverpool, L4 OTH"
+      }
+    }
+  ]
+}

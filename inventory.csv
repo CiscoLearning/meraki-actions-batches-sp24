@@ -1,0 +1,8 @@
+﻿Site,Location,MX device,MX IP,MS device,MS IP,MR device,MR IP,Address,Timezone,Mgmt. VLAN
+0,"San Diego, CA",QBSA-3VFG-G88P,10.0.1.1,QBSB-Q7GQ-DZM5,10.0.1.2,QBSC-2RB2-V4BS,10.0.1.3,"111 W Harbor Dr, San Diego, CA 92101",America/Los_Angeles,1
+1,"Boston, MA",QBSA-NFKU-XQSR,10.1.1.1,QBSB-EGDN-7XLZ,10.1.1.2,QBSC-PG3X-8D4R,10.1.1.3,"125 High St, Boston, MA 02110",America/New_York,11
+2,"Fairbanks, AK",QBSA-7SFU-MFW7,10.2.1.1,QBSB-ZQRL-UA96,10.2.1.2,QBSC-Q2T9-RS8Y,10.2.1.3,"433 Harold Bentley Ave, Fairbanks, AK 99701",America/Anchorage,21
+3,"Akureyri, IS",QBSA-H3YB-RD35,10.3.1.1,QBSB-P2ZT-XJYG,10.3.1.2,QBSC-QMZT-CH57,10.3.1.3,"vio Eyrarlandsveg 600, Akureyri, Iceland",Iceland,31
+4,"Nanjing, CN",QBSA-6W7Z-ERN9,10.4.1.1,QBSB-4TBA-A22C,10.4.1.2,QBSC-3EL9-E5AB,10.4.1.3,"122 Ninghai Rd, Gulou Qu, Nanjing Shi, Jiangsu Sheng, China, 210017",Asia/Hong_Kong,41
+5,"Bora Bora, PF",QBSA-83GV-APG9,10.5.1.1,QBSB-4MYE-H5XZ,10.5.1.2,QBSC-DCWT-SY4B,10.5.1.3,"Motu Piti Aau Bora Bora French Polynesia, 98730, French Polynesia",Pacific/Tahiti,51
+6,"Liverpool, GB",QBSA-HVB4-C2RL,10.6.1.1,QBSB-C2VF-F7AC,10.6.1.2,QBSC-5HD7-JGFX,10.6.1.3,"Anfield, Liverpool, L4 OTH",Europe/London,61

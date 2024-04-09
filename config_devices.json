@@ -1,0 +1,538 @@
+{
+  "confirmed": true,
+  "synchronous": false,
+  "actions": [
+    {
+      "resource": "/networks/L_686235993220606866/wireless/ssids/0",
+      "operation": "update",
+      "body": {
+        "number": 0,
+        "name": "Cisco U. Wifi",
+        "enabled": true,
+        "splashPage": "None",
+        "ssidAdminAccessible": false,
+        "radiusAccountingEnabled": false
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606866/appliance/vlans",
+      "operation": "create",
+      "body": {
+        "id": "1",
+        "name": "Site MX - Management",
+        "subnet": "10.0.1.0/24",
+        "applianceIp": "10.0.1.1"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606866/devices/QBSC-2RB2-V4BS",
+      "operation": "update",
+      "body": {
+        "name": "AP - Device",
+        "address": "111 W Harbor Dr, San Diego, CA 92101",
+        "moveMapMarker": true,
+        "notes": "Installed via ActionBatch Automation"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606866/devices/QBSC-2RB2-V4BS/managementInterfaceSettings",
+      "operation": "update",
+      "body": {
+        "wan1": {
+          "usingStaticIp": true,
+          "vlan": "1",
+          "staticIp": "10.0.1.3",
+          "staticGatewayIp": "10.0.1.1",
+          "staticSubnetMask": "255.255.255.0",
+          "staticDns": [
+            "208.67.220.220",
+            "208.67.222.222"
+          ]
+        }
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606866/devices/QBSB-Q7GQ-DZM5",
+      "operation": "update",
+      "body": {
+        "name": "SW - Device",
+        "address": "111 W Harbor Dr, San Diego, CA 92101",
+        "moveMapMarker": true,
+        "notes": "Installed via ActionBatch Automation"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606866/devices/QBSB-Q7GQ-DZM5/managementInterfaceSettings",
+      "operation": "update",
+      "body": {
+        "wan1": {
+          "usingStaticIp": true,
+          "vlan": "1",
+          "staticIp": "10.0.1.2",
+          "staticGatewayIp": "10.0.1.1",
+          "staticSubnetMask": "255.255.255.0",
+          "staticDns": [
+            "208.67.220.220",
+            "208.67.222.222"
+          ]
+        }
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606867/wireless/ssids/0",
+      "operation": "update",
+      "body": {
+        "number": 0,
+        "name": "Cisco U. Wifi",
+        "enabled": true,
+        "splashPage": "None",
+        "ssidAdminAccessible": false,
+        "radiusAccountingEnabled": false
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606867/appliance/vlans",
+      "operation": "create",
+      "body": {
+        "id": "11",
+        "name": "Site MX - Management",
+        "subnet": "10.1.1.0/24",
+        "applianceIp": "10.1.1.1"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606867/devices/QBSC-PG3X-8D4R",
+      "operation": "update",
+      "body": {
+        "name": "AP - Device",
+        "address": "125 High St, Boston, MA 02110",
+        "moveMapMarker": true,
+        "notes": "Installed via ActionBatch Automation"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606867/devices/QBSC-PG3X-8D4R/managementInterfaceSettings",
+      "operation": "update",
+      "body": {
+        "wan1": {
+          "usingStaticIp": true,
+          "vlan": "11",
+          "staticIp": "10.1.1.3",
+          "staticGatewayIp": "10.1.1.1",
+          "staticSubnetMask": "255.255.255.0",
+          "staticDns": [
+            "208.67.220.220",
+            "208.67.222.222"
+          ]
+        }
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606867/devices/QBSB-EGDN-7XLZ",
+      "operation": "update",
+      "body": {
+        "name": "SW - Device",
+        "address": "125 High St, Boston, MA 02110",
+        "moveMapMarker": true,
+        "notes": "Installed via ActionBatch Automation"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606867/devices/QBSB-EGDN-7XLZ/managementInterfaceSettings",
+      "operation": "update",
+      "body": {
+        "wan1": {
+          "usingStaticIp": true,
+          "vlan": "11",
+          "staticIp": "10.1.1.2",
+          "staticGatewayIp": "10.1.1.1",
+          "staticSubnetMask": "255.255.255.0",
+          "staticDns": [
+            "208.67.220.220",
+            "208.67.222.222"
+          ]
+        }
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606868/wireless/ssids/0",
+      "operation": "update",
+      "body": {
+        "number": 0,
+        "name": "Cisco U. Wifi",
+        "enabled": true,
+        "splashPage": "None",
+        "ssidAdminAccessible": false,
+        "radiusAccountingEnabled": false
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606868/appliance/vlans",
+      "operation": "create",
+      "body": {
+        "id": "21",
+        "name": "Site MX - Management",
+        "subnet": "10.2.1.0/24",
+        "applianceIp": "10.2.1.1"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606868/devices/QBSC-Q2T9-RS8Y",
+      "operation": "update",
+      "body": {
+        "name": "AP - Device",
+        "address": "433 Harold Bentley Ave, Fairbanks, AK 99701",
+        "moveMapMarker": true,
+        "notes": "Installed via ActionBatch Automation"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606868/devices/QBSC-Q2T9-RS8Y/managementInterfaceSettings",
+      "operation": "update",
+      "body": {
+        "wan1": {
+          "usingStaticIp": true,
+          "vlan": "21",
+          "staticIp": "10.2.1.3",
+          "staticGatewayIp": "10.2.1.1",
+          "staticSubnetMask": "255.255.255.0",
+          "staticDns": [
+            "208.67.220.220",
+            "208.67.222.222"
+          ]
+        }
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606868/devices/QBSB-ZQRL-UA96",
+      "operation": "update",
+      "body": {
+        "name": "SW - Device",
+        "address": "433 Harold Bentley Ave, Fairbanks, AK 99701",
+        "moveMapMarker": true,
+        "notes": "Installed via ActionBatch Automation"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606868/devices/QBSB-ZQRL-UA96/managementInterfaceSettings",
+      "operation": "update",
+      "body": {
+        "wan1": {
+          "usingStaticIp": true,
+          "vlan": "21",
+          "staticIp": "10.2.1.2",
+          "staticGatewayIp": "10.2.1.1",
+          "staticSubnetMask": "255.255.255.0",
+          "staticDns": [
+            "208.67.220.220",
+            "208.67.222.222"
+          ]
+        }
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606869/wireless/ssids/0",
+      "operation": "update",
+      "body": {
+        "number": 0,
+        "name": "Cisco U. Wifi",
+        "enabled": true,
+        "splashPage": "None",
+        "ssidAdminAccessible": false,
+        "radiusAccountingEnabled": false
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606869/appliance/vlans",
+      "operation": "create",
+      "body": {
+        "id": "31",
+        "name": "Site MX - Management",
+        "subnet": "10.3.1.0/24",
+        "applianceIp": "10.3.1.1"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606869/devices/QBSC-QMZT-CH57",
+      "operation": "update",
+      "body": {
+        "name": "AP - Device",
+        "address": "vio Eyrarlandsveg 600, Akureyri, Iceland",
+        "moveMapMarker": true,
+        "notes": "Installed via ActionBatch Automation"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606869/devices/QBSC-QMZT-CH57/managementInterfaceSettings",
+      "operation": "update",
+      "body": {
+        "wan1": {
+          "usingStaticIp": true,
+          "vlan": "31",
+          "staticIp": "10.3.1.3",
+          "staticGatewayIp": "10.3.1.1",
+          "staticSubnetMask": "255.255.255.0",
+          "staticDns": [
+            "208.67.220.220",
+            "208.67.222.222"
+          ]
+        }
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606869/devices/QBSB-P2ZT-XJYG",
+      "operation": "update",
+      "body": {
+        "name": "SW - Device",
+        "address": "vio Eyrarlandsveg 600, Akureyri, Iceland",
+        "moveMapMarker": true,
+        "notes": "Installed via ActionBatch Automation"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606869/devices/QBSB-P2ZT-XJYG/managementInterfaceSettings",
+      "operation": "update",
+      "body": {
+        "wan1": {
+          "usingStaticIp": true,
+          "vlan": "31",
+          "staticIp": "10.3.1.2",
+          "staticGatewayIp": "10.3.1.1",
+          "staticSubnetMask": "255.255.255.0",
+          "staticDns": [
+            "208.67.220.220",
+            "208.67.222.222"
+          ]
+        }
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606870/wireless/ssids/0",
+      "operation": "update",
+      "body": {
+        "number": 0,
+        "name": "Cisco U. Wifi",
+        "enabled": true,
+        "splashPage": "None",
+        "ssidAdminAccessible": false,
+        "radiusAccountingEnabled": false
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606870/appliance/vlans",
+      "operation": "create",
+      "body": {
+        "id": "41",
+        "name": "Site MX - Management",
+        "subnet": "10.4.1.0/24",
+        "applianceIp": "10.4.1.1"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606870/devices/QBSC-3EL9-E5AB",
+      "operation": "update",
+      "body": {
+        "name": "AP - Device",
+        "address": "122 Ninghai Rd, Gulou Qu, Nanjing Shi, Jiangsu Sheng, China, 210017",
+        "moveMapMarker": true,
+        "notes": "Installed via ActionBatch Automation"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606870/devices/QBSC-3EL9-E5AB/managementInterfaceSettings",
+      "operation": "update",
+      "body": {
+        "wan1": {
+          "usingStaticIp": true,
+          "vlan": "41",
+          "staticIp": "10.4.1.3",
+          "staticGatewayIp": "10.4.1.1",
+          "staticSubnetMask": "255.255.255.0",
+          "staticDns": [
+            "208.67.220.220",
+            "208.67.222.222"
+          ]
+        }
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606870/devices/QBSB-4TBA-A22C",
+      "operation": "update",
+      "body": {
+        "name": "SW - Device",
+        "address": "122 Ninghai Rd, Gulou Qu, Nanjing Shi, Jiangsu Sheng, China, 210017",
+        "moveMapMarker": true,
+        "notes": "Installed via ActionBatch Automation"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606870/devices/QBSB-4TBA-A22C/managementInterfaceSettings",
+      "operation": "update",
+      "body": {
+        "wan1": {
+          "usingStaticIp": true,
+          "vlan": "41",
+          "staticIp": "10.4.1.2",
+          "staticGatewayIp": "10.4.1.1",
+          "staticSubnetMask": "255.255.255.0",
+          "staticDns": [
+            "208.67.220.220",
+            "208.67.222.222"
+          ]
+        }
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606871/wireless/ssids/0",
+      "operation": "update",
+      "body": {
+        "number": 0,
+        "name": "Cisco U. Wifi",
+        "enabled": true,
+        "splashPage": "None",
+        "ssidAdminAccessible": false,
+        "radiusAccountingEnabled": false
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606871/appliance/vlans",
+      "operation": "create",
+      "body": {
+        "id": "51",
+        "name": "Site MX - Management",
+        "subnet": "10.5.1.0/24",
+        "applianceIp": "10.5.1.1"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606871/devices/QBSC-DCWT-SY4B",
+      "operation": "update",
+      "body": {
+        "name": "AP - Device",
+        "address": "Motu Piti Aau Bora Bora French Polynesia, 98730, French Polynesia",
+        "moveMapMarker": true,
+        "notes": "Installed via ActionBatch Automation"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606871/devices/QBSC-DCWT-SY4B/managementInterfaceSettings",
+      "operation": "update",
+      "body": {
+        "wan1": {
+          "usingStaticIp": true,
+          "vlan": "51",
+          "staticIp": "10.5.1.3",
+          "staticGatewayIp": "10.5.1.1",
+          "staticSubnetMask": "255.255.255.0",
+          "staticDns": [
+            "208.67.220.220",
+            "208.67.222.222"
+          ]
+        }
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606871/devices/QBSB-4MYE-H5XZ",
+      "operation": "update",
+      "body": {
+        "name": "SW - Device",
+        "address": "Motu Piti Aau Bora Bora French Polynesia, 98730, French Polynesia",
+        "moveMapMarker": true,
+        "notes": "Installed via ActionBatch Automation"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606871/devices/QBSB-4MYE-H5XZ/managementInterfaceSettings",
+      "operation": "update",
+      "body": {
+        "wan1": {
+          "usingStaticIp": true,
+          "vlan": "51",
+          "staticIp": "10.5.1.2",
+          "staticGatewayIp": "10.5.1.1",
+          "staticSubnetMask": "255.255.255.0",
+          "staticDns": [
+            "208.67.220.220",
+            "208.67.222.222"
+          ]
+        }
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606872/wireless/ssids/0",
+      "operation": "update",
+      "body": {
+        "number": 0,
+        "name": "Cisco U. Wifi",
+        "enabled": true,
+        "splashPage": "None",
+        "ssidAdminAccessible": false,
+        "radiusAccountingEnabled": false
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606872/appliance/vlans",
+      "operation": "create",
+      "body": {
+        "id": "61",
+        "name": "Site MX - Management",
+        "subnet": "10.6.1.0/24",
+        "applianceIp": "10.6.1.1"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606872/devices/QBSC-5HD7-JGFX",
+      "operation": "update",
+      "body": {
+        "name": "AP - Device",
+        "address": "Anfield, Liverpool, L4 OTH",
+        "moveMapMarker": true,
+        "notes": "Installed via ActionBatch Automation"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606872/devices/QBSC-5HD7-JGFX/managementInterfaceSettings",
+      "operation": "update",
+      "body": {
+        "wan1": {
+          "usingStaticIp": true,
+          "vlan": "61",
+          "staticIp": "10.6.1.3",
+          "staticGatewayIp": "10.6.1.1",
+          "staticSubnetMask": "255.255.255.0",
+          "staticDns": [
+            "208.67.220.220",
+            "208.67.222.222"
+          ]
+        }
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606872/devices/QBSB-C2VF-F7AC",
+      "operation": "update",
+      "body": {
+        "name": "SW - Device",
+        "address": "Anfield, Liverpool, L4 OTH",
+        "moveMapMarker": true,
+        "notes": "Installed via ActionBatch Automation"
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606872/devices/QBSB-C2VF-F7AC/managementInterfaceSettings",
+      "operation": "update",
+      "body": {
+        "wan1": {
+          "usingStaticIp": true,
+          "vlan": "61",
+          "staticIp": "10.6.1.2",
+          "staticGatewayIp": "10.6.1.1",
+          "staticSubnetMask": "255.255.255.0",
+          "staticDns": [
+            "208.67.220.220",
+            "208.67.222.222"
+          ]
+        }
+      }
+    }
+  ]
+}

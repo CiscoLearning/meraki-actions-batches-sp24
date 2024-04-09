@@ -1,0 +1,83 @@
+{
+  "confirmed": true,
+  "synchronous": false,
+  "actions": [
+    {
+      "resource": "/networks/L_686235993220606866/devices",
+      "operation": "claim",
+      "body": {
+        "serials": [
+          "QBSA-3VFG-G88P",
+          "QBSC-2RB2-V4BS",
+          "QBSB-Q7GQ-DZM5"
+        ]
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606867/devices",
+      "operation": "claim",
+      "body": {
+        "serials": [
+          "QBSA-NFKU-XQSR",
+          "QBSC-PG3X-8D4R",
+          "QBSB-EGDN-7XLZ"
+        ]
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606868/devices",
+      "operation": "claim",
+      "body": {
+        "serials": [
+          "QBSA-7SFU-MFW7",
+          "QBSC-Q2T9-RS8Y",
+          "QBSB-ZQRL-UA96"
+        ]
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606869/devices",
+      "operation": "claim",
+      "body": {
+        "serials": [
+          "QBSA-H3YB-RD35",
+          "QBSC-QMZT-CH57",
+          "QBSB-P2ZT-XJYG"
+        ]
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606870/devices",
+      "operation": "claim",
+      "body": {
+        "serials": [
+          "QBSA-6W7Z-ERN9",
+          "QBSC-3EL9-E5AB",
+          "QBSB-4TBA-A22C"
+        ]
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606871/devices",
+      "operation": "claim",
+      "body": {
+        "serials": [
+          "QBSA-83GV-APG9",
+          "QBSC-DCWT-SY4B",
+          "QBSB-4MYE-H5XZ"
+        ]
+      }
+    },
+    {
+      "resource": "/networks/L_686235993220606872/devices",
+      "operation": "claim",
+      "body": {
+        "serials": [
+          "QBSA-HVB4-C2RL",
+          "QBSC-5HD7-JGFX",
+          "QBSB-C2VF-F7AC"
+        ]
+      }
+    }
+  ]
+}
